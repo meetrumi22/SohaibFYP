@@ -105,6 +105,12 @@ const Signup = () => {
           <button className="text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
             Sign Up
           </button>
+          <div className="mt-4 flex space-x-4 items-center">
+            <p className="underline">already have an account?</p>
+            <button className="bg-blue-500 p-2 text-white rounded">
+              Login
+            </button>
+          </div>
         </div>
       </div>
     </section>

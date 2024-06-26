@@ -23,6 +23,7 @@ import AddSection from "./pages/AddSection.jsx";
 import AddSubject from "./pages/AddSubject.jsx";
 import ConfigTeacher from "./pages/ConfigTeacher.jsx";
 import ConfigClasses from "./pages/ConfigClasses.jsx";
+import TimeTable from "./pages/TimeTable.jsx";
 
 const router = createBrowserRouter([
   {
@@ -85,6 +86,10 @@ const router = createBrowserRouter([
       {
         path: "createtable/showsubject",
         element: <ShowSubject />,
+      },
+      {
+        path: "/timetable",
+        element: <TimeTable />,
       },
     ],
   },
